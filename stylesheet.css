@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(images/a.jpg);
+	/*background-image:url(images/1.png);*/
+	margin:0px;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100% 100%;	
+}
+
+.head
+{
+	font-family:"Trebuchet MS";
+	font-size:40px;
+	color:#FFF;
+	margin-left:30%;
+}
+#banner
+{
+	width:99.5%;
+	height:100px;
+	border:2px solid #FFF;
+	padding:1%;
+	background-color:rgba(0,0,0,0.7);
+}
+.clg
+{
+	font-family:"Segoe UI";
+	font-size:16px;
+	color:rgb(20, 86, 102);
+}
+#wrapper,#issue_wrapper
+{
+	width:80%;
+	padding-top:4%;
+	border-radius:10px;
+	border:2px solid #FFF;
+	background-color:rgba(0,0,0,0.7);
+}
+.SubHead
+{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:20px;
+}
+.labels
+{
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	color:#FF3;
+}
+.fields
+{
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	color:#FF3;
+	border-radius:5px;
+	padding:4px 6px;
+	border:1px solid #FF3;
+	background-color:transparent;
+}
+
+.table
+{
+	border-radius:5px;
+	padding:0px 5px;
+	border:1px solid #FF3;
+	background-color:transparent;
+}
+a.link:link{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:active{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:visited{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:hover{font-family:"Segoe UI";font-size:16px;color:#F6F;text-decoration:none;}
+.msg
+{
+	font-family:"Segoe UI";
+	color:rgb(33 208 192);
+	font-size:16px;
+}
+
+a.logout_Command{
+	padding:1%;
+	margin-left:60%;
+	text-decoration: none;
+	border:2px solid #FF0;
+	border-radius:5px;
+	color:#CFC;
+}
+a.logout_Command:hover{
+	border:2px solid #F60;
+	box-shadow:0px 0px 10px #FFFFFF;
+}
+a.Command:link{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #FF0;border-radius:5px;}
+a.Command:active{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #FF0;border-radius:5px;}
+a.Command:visited{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #FF0;border-radius:5px;}
+a.Command:hover{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #F60;border-radius:5px;box-shadow:0px 0px 10px #FFFFFF;}
+@media screen and (max-width:700px){
+	.head
+	{
+		font-size:30px;
+		margin-left:20%;
+	}
+	#wrapper{
+		width :1000px !important;
+	}
+}
