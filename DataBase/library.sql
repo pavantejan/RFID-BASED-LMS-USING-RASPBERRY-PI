@@ -1,7 +1,7 @@
 
 /*
 INSERT INTO `admin` (`aid`,`name`,`ContactNumber`,`email`) VALUES
-(`123`, `PavanTejan`,`9705473439`,`pavantejan2000@gmail.com`);
+(`123`, `PavanTejan`,`97054*****`,`@gmail.com`);
 */
 
 CREATE TABLE IF NOT EXISTS `dummy` (
