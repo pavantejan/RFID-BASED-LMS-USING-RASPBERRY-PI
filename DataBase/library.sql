@@ -2,6 +2,8 @@
 /*
 INSERT INTO `admin` (`aid`,`name`,`ContactNumber`,`email`) VALUES
 (`123`, `PavanTejan`,`97054*****`,`@gmail.com`);
+
+INSERT INTO dummy(`rfid`,`name`) VALUES('123', 'Pavan');
 */
 
 CREATE TABLE IF NOT EXISTS `dummy` (
