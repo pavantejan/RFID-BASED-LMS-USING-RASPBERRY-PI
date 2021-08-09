@@ -1,9 +1,15 @@
 
 /*
-INSERT INTO `admin` (`aid`,`name`,`ContactNumber`,`email`) VALUES
-(`123`, `PavanTejan`,`97054*****`,`@gmail.com`);
-
 INSERT INTO dummy(`rfid`,`name`) VALUES('123', 'Pavan');
+
+INSERT INTO `admin` (`aid`,`name`,`ContactNumber`,`email`) VALUES
+('386397414169','Pavan','97054*****','pavan*********@gmail.com');
+
+INSERT INTO students (`sid`,`name`,`branch`,`sem`,`email`) VALUES
+('86872288059','Pavan','97054*****','pavan*********@gmail.com');
+
+INSERT INTO books (`rfid`,`name`,`author`) VALUES
+('31325113885','The Art of Exploitation','Jon Erickson');
 */
 
 CREATE TABLE IF NOT EXISTS `dummy` (
